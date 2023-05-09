@@ -5,6 +5,8 @@ use std::cmp::Ordering; //comparing numbers with Less, Greater and Equal
 fn main() {
     println!("Guess a number between 1 -100");
     println!("Guess a number between 1 -1000000");
+    println!("Guess a number between 1 -1000000");
+    println!("Guess a number between 1 -1000000");
     let secret_number = rand::thread_rng().gen_range(1..=100);
     //rand::thread_rng functions gives us the particular random number generator were looking for
     //gen_range takes a range expression in form of start..=end
